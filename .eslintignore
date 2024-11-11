@@ -1,0 +1,8 @@
+translations/*
+translations
+autotests
+autotests/*
+node_modules
+dist
+dist/*
+tools/*

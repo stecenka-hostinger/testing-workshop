@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "isolatedModules": false,
+    "allowSyntheticDefaultImports": true,
+    "verbatimModuleSyntax": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "noEmit": true,
+    "types": ["@testing-library/jest-dom", "jest", "@types/node", "vite/client"],
+    "paths": {
+      "@/*": ["src/*"],
+      "@tests/*": ["tests/*"],
+      "@hpanel-components": ["types/shared.d.ts"]
+    },
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"],
+    "noImplicitAny": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.vue", "tests/**/*.ts"],
+  "compileOnSave": true,
+  "exclude": ["node_modules"]
+}
